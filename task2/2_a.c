@@ -4,7 +4,7 @@
 
 
 int CountWords(FILE* ptr){
-    ptr = fopen("/home/it/chip_design/CommonCore/ProblemSolving/lab08/task2/task2test.txt", "r");
+    ptr = fopen("task2test.txt", "r");
     if (!ptr) {
         printf("Error: file did not open!\n");
         exit(1);
@@ -31,7 +31,7 @@ int CountWords(FILE* ptr){
 }
 
 int CountLines(FILE* ptr){
-    ptr = fopen("/home/it/chip_design/CommonCore/ProblemSolving/lab08/task2/task2test.txt", "r");
+    ptr = fopen("task2test.txt", "r");
     if (!ptr) {
         printf("Error: file did not open!\n");
         exit(1);
@@ -48,7 +48,7 @@ int CountLines(FILE* ptr){
 }
 
 int CountCharacters(FILE* ptr){
-    ptr = fopen("/home/it/chip_design/CommonCore/ProblemSolving/lab08/task2/task2test.txt", "r");
+    ptr = fopen("task2test.txt", "r");
     if (!ptr) {
         printf("Error: file did not open!\n");
         exit(1);
@@ -63,7 +63,7 @@ int CountCharacters(FILE* ptr){
 }
 
 int main(){
-    FILE *ptr = fopen("/home/it/chip_design/CommonCore/ProblemSolving/lab08/task2/task2test.txt", "r");
+    FILE *ptr = fopen("task2test.txt", "r");
     if (!ptr) {
         printf("Error: file did not open!\n");
         exit(1);
